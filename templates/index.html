@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="static/css/styles.css">
+
+        <title>Vision Palette</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Vision Palette</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#tool" class="nav__link">Tool</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#aboutus" class="nav__link">About Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="static/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Transform Your Vision</span>
+                        <h1 class="home__data-title">   Generate Monochrome<br.> and Vibrant Color Combinations with AI-Powered Precision!   </h1>
+                        <a href="#tool" class="button">Scan</a>
+                        <a id="uploadButton" class="button">Upload</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="about__title about__title">More Information <br> About Our AI integrated color scheme</h2>
+                        <p class="about__description"> Real-time color recognition, allowing users to scan images 
+                            and receive immediate hex color identification and recommended color scheme result.
+                        </p>
+                        <a href="#" class="button">Take a Read</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="static/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="static/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== COLOR VISION TOOL ====================-->
+            <section class="color section" id="tool">
+                <div class ="scan">
+                </div>
+                <h2 class="section__title">Color Palette Tool</h2>
+                
+                <div class="color_scheme">
+                        <!--==================== COLOR 1 ====================-->
+                        <div class="color__data">
+                            <h2 class="color__title">Space Cadet</h2>
+                            <span class="color__description"> #1B1B3A</span>
+                        
+                            <div class="a" id="color_1"> </div>
+                            <div>
+                    
+                                    <div class = "b">   
+
+                                    </div>
+                                    <div class = "c">   
+
+                                    </div>
+                                    <div class = "d">   
+
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <!--==================== COLOR 2 ====================-->
+                        
+                           
+                            <div class="color__data">
+                                <h2 class="color__title">Blue</h2>
+                                <span class="color__description">Hex code</span>
+                                <div class="color_2">
+                                    
+                            </div>
+                            </div>
+        
+
+                        <!--==================== COLOR 3 ====================-->
+                        
+                           
+                            <div class="color__data">
+                                <h2 class="color__title">Yellow</h2>
+                                <span class="color__description">Hex code</span>
+                                <div class="color_3">
+                            </div>
+                        </div>
+
+                        <!--==================== COLOR 4 ====================-->
+                                                   
+                            <div class="color__data">
+                                <h2 class="color__title">White</h2>
+                                <span class="color__description">Hex code</span>
+                                <div class="color_4">  
+                            </div>
+                        </div>
+
+                        <!--==================== COLOR 5 ====================-->
+                                                   
+                            <div class="color__data">
+                                <h2 class="color__title">Black</h2>
+                                <span class="color__description">Hex code</span>
+                                <div class="color_5">
+                            </div>
+                        </div>
+
+                    
+                </div>
+
+            </section>
+
+            <!--==================== ABOUT US ====================-->
+            <section class="about section" id="aboutus">
+                <h2 class="section__title">Meet the Team</h2>
+
+                <div class="aboutus__container container grid">
+                    <!--==================== Christine ====================-->
+                    <div class="about__card">
+                        <img src="static/img/Christine.jpg" alt="" class="about__image">
+                        
+                        <div class="about__content">
+                            <div class="about__data">
+                                <h3 class="aboutus__title"> Programmer </h3>
+                                <h5 class="about__name">Agripa,Christine Joy </h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== Jhielo ====================-->
+                    <div class="about__card">
+                        <img src="static/img/Jhielo.jpg" alt="" class="about__image">
+                        
+                        <div class="about__content">
+                            <div class="about__data">
+                                <h3 class="aboutus__title">Programmer</h3>
+                                <h5 class="about__name">Gonzales, Jhielo</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== Ella ====================-->
+                    <div class="about__card">
+                        <img src="static/img/Ella.jpg" alt="" class="about__image">
+                        
+                        <div class="about__content">
+                            <div class="about__data">
+                                <h3 class="aboutus__title">Programmer</h3>
+                                <h5 class="about__subtitle">Legaspi, Ella Marie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== Diana ====================-->
+                    <div class="about__card">
+                        <img src="static/img/Diana.jpg" alt="" class="about__image">
+                        
+                        <div class="about__content">
+                            <div class="about__data">
+                                <h3 class="aboutus__title">Programmer</h3>
+                                <h5 class="about__subtitle">Talde, Diana</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== Jenny ====================-->
+                    <div class="about__card">
+                        <img src="static/img/Jenny.jpg" alt="" class="about__image">
+                        
+                        <div class="about__content">
+                            <div class="about__data">
+                                <h3 class="aboutus__title">Programmer</h3>
+                                <h5 class="about__subtitle">Yamson, Jenny</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Contact Us ====================-->
+            <section class="contactus section">
+                <div class="contactus__bg">
+                    <div class="contactus__container container">
+                        <h2 class="section__title subscribe__title">Any Suggestion?</h2>
+                        <p class="contactus__description"> Contact us via email
+                        </p>
+                        <form action="" class="contactus__form">
+                            <input type="text" placeholder="Enter message" class="email__input">
+                            <button class="button">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Color Vision</h3>
+                        <p class="footer__description"> Tool tagline 
+                        </p>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About Us</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; Color Vision, AI integrated palette</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        
+        <div style="text-align:center; margin:70px 30px;">
+            <h1>Flask Color Palette Generator</h1>
+            <form id="colorForm" method="POST" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit">Generate Palette</button>
+            </form>
+            <div id="palette"></div>
+        <div/>
+
+        <script>
+        const form = document.querySelector('#colorForm')
+        const paletteDiv = document.querySelector('#palette')
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault()
+
+            const formData = new FormData(form)
+            const response = await fetch('/', { method: 'POST', body: formData })
+            const data = await response.json()
+
+            paletteDiv.innerHTML = ''
+            data.forEach(color => {
+            const swatch = document.createElement('div')
+            swatch.style.backgroundColor = `rgb(${color.join(',')})`
+            swatch.style.width = '50px'
+            swatch.style.height = '50px'
+            swatch.style.display = 'inline-block'
+            swatch.addEventListener('click', async () => {
+                const response = await fetch(`/brightness?color=${color.join(',')}`)
+                const brightnessData = await response.json()
+                paletteDiv.innerHTML = ''
+                brightnessData.forEach(brightColor => {
+                const brightSwatch = document.createElement('div')
+                brightSwatch.style.backgroundColor = `rgb(${brightColor.join(',')})`
+                brightSwatch.style.width = '50px'
+                brightSwatch.style.height = '50px'
+                brightSwatch.style.display = 'inline-block'
+                paletteDiv.appendChild(brightSwatch)
+                })
+            })
+            paletteDiv.appendChild(swatch)
+            })
+        })
+        </script>
+
+        <script src="static/js/scrollreveal.min.js"></script>
+        <script src="static/js/swiper-bundle.min.js"></script>
+        <script src="static/js/main.js"></script>
+    </body>
+</html>
